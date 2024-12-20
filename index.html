@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Climora</title>
+    <link rel="stylesheet" href="homepage.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+                <li><a href="cart.html">Go to Cart <span id="cart-count">0</span></a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="hero" class="hero">
+            <h1>Welcome to Climora</h1>
+            <p>Your comfort, our priority.</p>
+            <a href="#products" class="btn">Shop Now</a>
+        </section>
+
+        <section id="products" class="section">
+            <h2>Our Products</h2>
+            <div class="product-grid">
+                <div class="product-card">
+                    <img src="images/dual-pillow.jpg" alt="Dual-Pillow">
+                    <h3>Dual Temperature Pillow 149$
+                    <p>The best of both worlds – hot or cold whenever you need it.</p>
+                    <button class="btn add-to-cart" data-product-name="Dual Temperature Pillow">Add to Cart</button>
+                </div>
+                <div class="product-card">
+                    <img src="images/cold-pillow.jpg" alt="cold-pillow">
+                    <h3>Cold Pillow 119$</h3>
+                    <p>Stay cool and comfortable all night long.</p>
+                    <button class="btn add-to-cart" data-product-name="Cold Pillow">Add to Cart</button>
+                </div>
+                <div class="product-card">
+                    <img src="images/heat-pillow.jpg" alt="heat-pillow">
+                    <h3>Heat Pillow 119$</h3>
+                    <p>Relax and unwind with calming scents.</p>
+                    <button class="btn add-to-cart" data-product-name="Heat Pillow">Add to Cart</button>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="section about">
+            <h2>About Us</h2>
+            <p>At Climora, we believe in creating products that bring comfort and wellness into your daily life. Our heat and cold pillows are crafted with care to ensure the highest quality and satisfaction.</p>
+            <div class="team">
+                <div class="team-member">
+                    <h3>(Name)</h3>
+                    <p>Founder & CEO</p>
+                </div>
+                <div class="team-member">
+                    <h3>(Name)</h3>
+                    <p>Chief Product Officer</p>
+                </div>
+                <div class="team-member">
+                    <h3>(Name)</h3>
+                    <p>Head of Marketing</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section contact">
+            <h2>Contact Us</h2>
+            <form id="contact-form">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+                
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+            <div class="contact-info">
+                <p>Email: support@climora.com</p>
+                <p>Phone: +1 (800) 123-4567</p>
+                <p>Address: 123 Comfort Lane, Wellness City, USA</p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="social-media">
+            <a href="#"><img src="images/facebook-icon.png" alt="Facebook"></a>
+            <a href="#"><img src="images/twitter-icon.png" alt="Twitter"></a>
+            <a href="#"><img src="images/instagram-icon.png" alt="Instagram"></a>
+            <a href="#"><img src="images/linkedin-icon.png" alt="LinkedIn"></a>
+        </div>
+        <p>&copy; 2024 Climora. All rights reserved.</p>
+    </footer>
+    <script src="homepage.js"></script>
+</body>
+</html>
